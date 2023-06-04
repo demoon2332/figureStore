@@ -1,0 +1,111 @@
+
+/* css for part 2  */
+
+#card-view {
+	margin-top: 3.5rem;
+	justify-content: center;
+    align-items: flex-start;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
+.product-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.product-lists-line {
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+    gap: 30px;
+}
+
+.menu-dropdown{
+    width: 30%;
+}
+
+.menu-item{
+    margin: 40px 0px;
+}
+
+.menu-item li , li::marker {
+    /* padding-left: 16px; */
+    margin-left: 16px ;
+    font-weight: normal;
+}
+
+.menu-item-name {
+    margin: 25px 0px;
+    font-size: 1.2rem;
+    width: 50%;
+    padding-bottom: 16px;
+    border-bottom: solid 2px #8D0033;
+}
+
+.menu-item-list {
+    font-weight: bold;
+}
+
+
+.range-money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 60%;
+}
+
+.range-start{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.range-end{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.range-start input, .range-end input{
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 1px #8D0033;
+    padding: 6px 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+    outline: none;
+    
+}
+
+.range-start input:focus, range-end input:focus{
+    border: solid 2px #45011a;
+
+}
+
+/* part 3 doll collectors */
+
+.part5-body{
+    justify-content: space-between;
+}
+
+.big-card {
+    justify-content: flex-start;
+}
+
+.big-card .figure img {
+    width: 100%;
+    height: auto;
+}
+
+.small-cards-line1, .small-cards-line2 {
+    justify-content: center;
+}
+
+
