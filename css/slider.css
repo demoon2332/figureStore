@@ -131,7 +131,7 @@ body {
   
   .slick-track {
     max-width: 70%!important;
-    max-height: 90% !important;
+    /* max-height: 90% !important; */
     transform: translate3d(0, 0, 0)!important;
     perspective: 100px;
   }

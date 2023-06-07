@@ -105,7 +105,7 @@
 }
 
 .small-cards-line1, .small-cards-line2 {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 

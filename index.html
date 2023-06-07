@@ -27,7 +27,7 @@
 				<input type="text" class="form-control" placeholder="Tìm kiếm">
 				<div class="input-group-prepend">
 					<span class="input-group-text">
-						<i class="fas fa-search" style="font-size: 0.8rem;"></i></span>
+						<i class="fas fa-search icon-search" ></i></span>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,7 @@
 				<a href="./login_page.html"><i class="fas fa-user-circle" style="font-size: 0.7rem;color: #FDCDB3;"
 						id="user-icon"></i></a>
 			</div>
-			<div class="col-4" id="credential">
+			<div class="col-4 display-pc-only" id="credential">
 				<div class="row">
 					<span id="credential-text1">Đăng nhập/Đăng ký</span>
 				</div>
@@ -51,61 +51,59 @@
 		</div>
 	</div>
 
-	<div class="header-menu" id="menu">
-		<div class="col-1">
-			<span> Trang chủ</span>
+	<div class="header-menu-and-img-container">
+		<div id="head-img">
+			<img src="./images/content/MHA_01.png">
 		</div>
-		<div class="col-1">
-			<span> Giới thiệu</span>
+		<div class="header-menu" id="menu">
+			<div class="col-1">
+				<span> Trang chủ</span>
+			</div>
+			<div class="col-1">
+				<span> Giới thiệu</span>
+			</div>
+			<div class="col-1">
+				<a href="./product_page.html"><span> Sản phẩm</span></a>
+			</div>
+			<div class="col-1">
+				<span> Hướng dẫn</span>
+			</div>
+			<div class="col-1">
+				<span> Ưu đãi</span>
+			</div>
+			<div class="col-1">
+				<span> Liên hệ</span>
+			</div>
+			<div class="col-1">
+				<span> Blog</span>
+			</div>
 		</div>
-		<div class="col-1">
-			<a href="./product_page.html"><span> Sản phẩm</span></a>
-		</div>
-		<div class="col-1">
-			<span> Hướng dẫn</span>
-		</div>
-		<div class="col-1">
-			<span> Ưu đãi</span>
-		</div>
-		<div class="col-1">
-			<span> Liên hệ</span>
-		</div>
-		<div class="col-1">
-			<span> Blog</span>
-		</div>
-	</div>
+	
 
-	<div id="head-img">
-		<img src="./images/content/MHA_01.png">
 	</div>
 
 	<!-- ---------------SLIDER HERE--------------- -->
 	<div class="container">
 		<div class="rev_slider">
 			<div class="rev_slide">
-				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Albedo_figure.png"></div>
-			</div>
-			<div class="rev_slide">
-				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Childe_figure.png"></div>
-			</div>
-			<div class="rev_slide">
 				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Bakugo_figure.png"></div>
 			</div>
+			
 			<div class="rev_slide">
 				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Bakugo_nen.png"></div>
+			</div>
+			<div class="rev_slide">
+				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Albedo_figure.png"></div>
 			</div>
 			<div class="rev_slide">
 				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Albedo_figure_kimono.png">
 				</div>
 			</div>
 			<div class="rev_slide">
-				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Miku.png"></div>
+				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Albedo_figure.png"></div>
 			</div>
 			<div class="rev_slide">
-				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Raiden_doll.png"></div>
-			</div>
-			<div class="rev_slide">
-				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Yae.png"></div>
+				<div class="test"><img style="width: 100%;height: 100%" src="./images/content/Childe_figure.png"></div>
 			</div>
 		</div>
 	</div>
@@ -148,7 +146,7 @@
 
 
 		</a>
-		<a href="./detail_page.html" class="col available-card" style="overflow: hidden;">
+		<a href="./detail_page.html" class="col available-card display-pc-only display-tablet-only" style="overflow: hidden;">
 			<div style="display: flex; flex-direction: column; gap: 10px;">
 				<div style="width: 100%; height: 100%;"><img src="./images/content/Gojo.png"
 						style="width: 100%; height: 100%;"></div>
@@ -192,7 +190,7 @@
 	</div>
 
 	<div style="display: flex;justify-content: center; align-items: center; padding: 20px;">
-		<button class="showMoreBtn">Xem thêm</button>
+		<button class="showMoreBtn">xem thêm</button>
 	</div>
 	<!-- END OF PART 2 -->
 
@@ -237,7 +235,7 @@
 
 
 		</div>
-		<div class="col available-card" style="overflow: hidden;">
+		<div class="col available-card display-pc-only display-tablet-only" style="overflow: hidden;">
 			<div style="display: flex; flex-direction: column; gap: 10px;">
 				<div style="width: 100%; height: 100%;"><img src="./images/content/Miku.png"
 						style="width: 100%; height: 100%;"></div>
@@ -279,7 +277,7 @@
 	</div>
 
 	<div style="display: flex;justify-content: center; align-items: center; padding: 20px;">
-		<button class="showMoreBtn">Xem thêm</button>
+		<button class="showMoreBtn">xem thêm</button>
 	</div>
 	<!-- END OF PART 3 -->
 
@@ -307,7 +305,7 @@
 				<img src="./images/content/Gaara.png">
 			</div>
 			<div style="display: flex;justify-content: center; align-items: center; padding: 20px;">
-				<button class="showMoreBtn">Xem thêm</button>
+				<button class="showMoreBtn">xem thêm</button>
 			</div>
 		</div>
 		<div class="small-cards">
@@ -426,7 +424,7 @@
 					<img class="image-layer2" src="./images/content/nedo.png">
 				</div>
 				<div style="display: flex;justify-content: center; align-items: center; padding: 20px;">
-					<button class="showMoreBtn">Xem thêm</button>
+					<button class="showMoreBtn">xem thêm</button>
 				</div>
 			</div>
 
@@ -465,11 +463,11 @@
 		</div>
 
 		<div class="article">
+			<img src="./images/content/article_2.png" class="display-table-only display-mobile-only">
 			<div class="article-text">
-				<div class="article-title">Figure, doll, nendoroid là gì?</div>
+				<div class="article-title">Phân biệt figure thật và giả?</div>
 				<div class="article-content">
-					Mô Hình Figure Anime là những sản phẩm mô hình về nhân vật trong những bộ truyện tranh ở Nhật Bản.
-					Mỗi nhân vật đều sẽ được mô phỏng lại ở những sản phẩm làm bằng nhựa, thủy...
+					Thị trường tượng figure sưu tầm là một lĩnh vực đang phát triển mạnh mẽ bao gồm nhiều thương hiệu, nhà sản xuất và loạt sản phẩm khác nhau. Đây là một thị trường đã...
 				</div>
 				<div class="article-info">
 					<div class="article-views">
@@ -479,17 +477,17 @@
 					<div>22/03/2023</div>
 				</div>
 			</div>
-			<img src="./images/content/article_1.png">
+			<img src="./images/content/article_2.png" class="display-pc-only">
 
 		</div>
 
 		<div class="article">
-			<img src="./images/content/article_1.png">
+			<img src="./images/content/article_3.png">
 			<div class="article-text">
-				<div class="article-title">Figure, doll, nendoroid là gì?</div>
+				<div class="article-title">Muốn đu figure, nhưng không có tiền?</div>
 				<div class="article-content">
-					Mô Hình Figure Anime là những sản phẩm mô hình về nhân vật trong những bộ truyện tranh ở Nhật Bản.
-					Mỗi nhân vật đều sẽ được mô phỏng lại ở những sản phẩm làm bằng nhựa, thủy...
+					Mang trong mình dòng máu wibu nhưng bạn sống dưới thân phận đỗ nghèo khỉ nên không thể đu figure? đừng lo vì tại
+ ミアちゃん chúng tôi cho trả góp bằng thận của bạn :)) ...
 				</div>
 				<div class="article-info">
 					<div class="article-views">
@@ -502,7 +500,7 @@
 		</div>
 
 		<div style="display: flex;width: 100%; justify-content: center;margin: 10px 0px 40px 0px"><button
-				class="showMoreBtn">Xem thêm</button></div>
+				class="showMoreBtn">xem thêm</button></div>
 
 
 

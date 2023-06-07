@@ -314,10 +314,41 @@ input[type="number"] {
     .figure-info {
         width: 100%;
     }
+
+    .detail-part2{
+        flex-direction: column;
+    }
+    
+    .part2-figure-info {
+        width: 95%;
+    }
+
+    .p2-f-img{
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .detail-part2-overlay{
+        top: 5%;
+        height: 55%;
+    }
+
+    .detail-part3{
+        flex-direction: column;
+    }
+    .comments{
+        width: 100%;
+    }
+    .your-comment{
+        width: 100%;
+    }
 }
 
 
 @media only screen and (max-width: 950px) {
-
+    .detail-part2-overlay{
+        top: 12%;
+        height: 75%;
+    }
 }
 /* END OF PART 3 */
