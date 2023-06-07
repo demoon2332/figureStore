@@ -215,7 +215,7 @@ input[type="number"] {
     display: flex;
     width: 100%;
     padding: 12px 42px;
-    gap: 30px;
+    gap: 40px;
 }
 
 .comments {
@@ -232,4 +232,92 @@ input[type="number"] {
     margin-bottom: 18px;
 }
 
+
+.fa-star {
+    color: rgb(209, 202, 202);
+}
+.checked, .fa-star-half-alt {
+    color:orange;
+}
+
+.comment-list-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 12px;
+}
+
+.comment-card{
+    background-color: rgba(253, 205, 179, 0.43);
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    gap: 12px;
+    color: #8D0033;
+    font-family: 'Open Sans';
+}
+
+.cm-title{
+    font-weight: bold;
+}
+
+.cm-content{
+    font-weight: lighter;
+    padding-right: 10%;
+}
+
+.cm-img img {
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.your-rating{
+    display: flex;
+    gap: 20px;
+}
+
+.ycomment-name{
+    margin-top: 16px;
+}
+
+.ycomment-name, .ycomment-content, .ycomment-email {
+    font-style: italic;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.ycomment-name input, .ycomment-content textarea, .ycomment-email input {
+    color: #8D0033;
+    background-color: rgba(253, 205, 179, 0.43);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .figure-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .figure-img{
+        width: 100%;
+    }
+
+    .figure-info {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+
+}
 /* END OF PART 3 */

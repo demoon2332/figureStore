@@ -610,10 +610,10 @@ footer {
 /* RESPONSIVE CONFIGURATION */
 @media only screen and (max-width: 1500px) {
 	.display-mobile-only {
-		display: block;
+		display: block !important;
 	}
 	.display-pc-only{
-		display: none;
+		display: none !important;
 	}
 	#home_button{
 		width: 30vw;

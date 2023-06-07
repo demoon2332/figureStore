@@ -3,6 +3,7 @@
 
 <head>
     <title>Buy a Figure</title>
+	<link rel="icon" href="./images/app/icon.png" type="image/x-icon"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -86,9 +87,10 @@
     <div class="figure-container">
         <div class="figure-img">
             <div class="figure-big-img">
-                <img src="./images/content/miku_big_fig.png">
+                <img src="./images/content/miku_big_fig.png" class="display-pc-only">
+                <img src="./images/content/miku2.png" class="display-mobile-only">
             </div>
-            <div class="small-imgs">
+            <div class="small-imgs display-pc-only">
                 <div class="img-arrow">
                 <i class="fas fa-arrow-left"></i>
                 </div>
@@ -193,12 +195,64 @@
             <div>Đánh giá từ khách hàng</div>
             <div class="comment-list-cards">
                 <div class="comment-card">
-                    <div class="cm-img"></div>
+                    <div class="cm-img">
+                        <img src="./images/content/customer1.png">
+                    </div>
                     <div class="cm-info">
-                        <div class="cm-title"></div>
-                        <div class="cm-content"></div>
+                        <div class="cm-title">
+                            Khách hàng đã ẩn danh
+                        </div>
+                        <div class="cm-content">
+                            Figure xinh lắm ạ, sản phẩm giống như miêu tả luôn.
+                        </div>
                         <div class="rating-starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fas fa-star-half-alt"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="comment-card">
+                    <div class="cm-img">
+                        <img src="./images/content/customer2.png">
+                    </div>
+                    <div class="cm-info">
+                        <div class="cm-title">
+                            Pé_zâu^2004
+                        </div>
+                        <div class="cm-content">
+                            Đã mua nhiều lần ở cửa hàng òi, và sẽ còn ủng hộ dài dài nè.
+                        </div>
+                        <div class="rating-starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fas fa-star-half-alt"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment-card">
+                    <div class="cm-img">
+                        <img src="./images/content/customer3.png">
+                    </div>
+                    <div class="cm-info">
+                        <div class="cm-title">
+                            Lãng Tử Sinh Tình
+                        </div>
+                        <div class="cm-content">
+                            Mua hàng ở đây không sợ dính hàng giả vì shop rất uy tín trong khâu nhập hàng, tôi mua hàng ở đây cũng được 20 năm rồi, sau này con cháu tôi sẽ tiếp tục mua dài dài.
+                        </div>
+                        <div class="rating-starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fas fa-star-half-alt"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
                 </div>
@@ -209,24 +263,28 @@
             <div class="your-rating">
                 <div>Xếp hạng sản phẩm</div>
                 <div class="your-rating-starts">
-
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="fa fa-star"></span>
                 </div>
             </div>
             <div class="ycomment-name">
-                <div>Tên của bạn*</div>
-                <input placeholder="Tên của bạn">
+                <label for="name">Tên của bạn*</label>
+                <input name="name" placeholder="Tên của bạn">
             </div>
             <div class="ycomment-content">
-                <div>Đánh giá của bạn*</div>
-                <textarea placeholder="Nội dung"></textarea>
+                <label for="content">Đánh giá của bạn*</label>
+                <textarea name="content" placeholder="Nội dung"></textarea>
             </div>
             <div class="ycomment-email">
-                <div>Email*</div>
-                <input placeholder="Email">
+                <label for="email">Email*</label>
+                <input name="email" placeholder="Email">
             </div>
 
-            <div>
-                <button class="btn-send-cm">Gửi</button>
+            <div style="display: flex; justify-content: flex-end">
+                <button class="showMoreBtn" style="padding: 2px 30px;">Gửi</button>
             </div>
         </div>
     </div>
