@@ -4,6 +4,7 @@ body {
 	background-size: cover;
    }
 
+
 #header {
 	/* background-color: #8D0033; */
 	margin: 0;
@@ -506,11 +507,14 @@ body {
 }
 .image-layer2{
 	position: absolute;
-	top: -15%;
-	left: 35%;
+	bottom: 10%;
+	left: 25%;
+	overflow-x: hidden;
 	opacity: 0.3;
-	
 	z-index: -1;
+}
+.image-layer2-padding{
+	height: 100px;
 }
 
 /* end of part 6 */
@@ -662,10 +666,59 @@ footer {
 	border-radius: 50%;
   }
 
+  /* burger button( top-left corner menu button) */
+
+  .burger-wrapper{
+	display: flex;
+	padding-left: 20px;
+	justify-content: flex-start;
+	gap: 50px;
+
+  }
+
+  .burger-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 40px;
+	height: 25px;
+	background: none;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .line {
+	width: 30px;
+	height: 4px;
+	background-color: #ffffff;
+	transition: all 0.3s ease;
+  }
+  
+  .burger-btn:hover .line {
+	background-color: #555;
+  }
+  
+  .burger-btn.active .line {
+	background-color: #fff;
+  }
+  
+  .burger-btn.active .line:first-child {
+	transform: translateY(8px) rotate(45deg);
+  }
+  
+  .burger-btn.active .line:last-child {
+	transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .burger-btn.active .line:nth-child(2) {
+	opacity: 0;
+  }
+
 /* enf of footer */
 
 /* RESPONSIVE CONFIGURATION */
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1450px) {
 	
 	.display-mobile-only {
 		display: block !important;
@@ -800,6 +853,9 @@ footer {
 		z-index: -1;
 		transform: translate(-30%,-30%);
 	}
+	.image-layer2-padding{
+		height: 200px;
+	}
 	
 	
 
@@ -842,6 +898,10 @@ footer {
 
 	.small-cards-line1, .small-cards-line2 {
 		gap: 0px;
+	}
+
+	.image-layer2-padding{
+		height: 100px;
 	}
 
 	.resize-text {

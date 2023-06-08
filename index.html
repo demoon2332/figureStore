@@ -55,7 +55,7 @@
 		<div id="head-img">
 			<img src="./images/content/MHA_01.png">
 		</div>
-		<div class="header-menu" id="menu">
+		<div class="header-menu display-pc-only" id="menu">
 			<div class="col-1">
 				<span> Trang chủ</span>
 			</div>
@@ -76,6 +76,21 @@
 			</div>
 			<div class="col-1">
 				<span> Blog</span>
+			</div>
+		</div>
+
+		<div class="header-menu display-tablet-only display-mobile-only" id="menu">
+			<div class="burger-wrapper">
+				<div class="col-1">
+					<class class="burger-btn">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</class>
+				</div>
+				<div class="col-1">
+					<span style="font-size: 18px;"> Trang chủ</span>
+				</div>
 			</div>
 		</div>
 	
@@ -241,7 +256,7 @@
 					<p class="card-brand"> YS Studio</p>
 					<b class="card-name"> Nanami</b>
 					<p class="card-price"> 6,000,000 VNĐ
-						<i class="fa-sharp fa-regular fa-cart-plus"></i>
+						<i class="fas fa-cart-plus"></i>
 					</p>
 
 
@@ -440,7 +455,8 @@
 		</div>
 		<div class="big-card2">
 			<div class="figure">
-				<div style="position: relative; overflow: hidden">
+				<div style="position: relative; overflow-x: hidden;">
+					<div class="image-layer2-padding"></div>
 					<img src="./images/content/nedo.png">
 					<img class="image-layer2" src="./images/content/nedo.png">
 				</div>
