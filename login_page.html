@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buy a Figure</title>
+    <link rel="icon" href="./images/app/icon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="./css/slider.css" />
+</head>
+
+<body>
+    <div class="row" id="header">
+        <div class="" id="home">
+            <a href=""><img id="home_button" src="./images/app/footer_Logo.png"></a>
+        </div>
+
+        <div class="search-bar">
+            <div id="search-bar">
+                <input type="text" placeholder="Tìm kiếm">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"
+                        style="background-color: transparent;border: 1px solid;border-color: #FDCDB3;">
+                        <i class="fas fa-search icon-search"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="" id="user-info">
+            <div class="col-2">
+                <a href="./login_page.html"><i class="fas fa-user-circle" style="font-size: 0.7rem;color: #FDCDB3;"
+                        id="user-icon"></i></a>
+            </div>
+            <div class="col-4 display-pc-only" id="credential">
+                <div class="row">
+                    <span id="credential-text1">Đăng nhập/Đăng ký</span>
+                </div>
+                <div class="row">
+                    <span id="credential-text2">Tài khoản của tôi</span>
+                </div>
+            </div>
+            <div class="col-2">
+                <span class="fas fa-shopping-cart fa-solid" id="shopping_cart"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="header-menu-and-img-container">
+        <div id="head-img">
+            <img src="./images/content/MHA_01.png">
+        </div>
+        <div class="header-menu display-pc-only" id="menu">
+            <div class="col-1">
+                <span> Trang chủ</span>
+            </div>
+            <div class="col-1">
+                <span> Giới thiệu</span>
+            </div>
+            <div class="col-1">
+                <a href="./product_page.html"><span> Sản phẩm</span></a>
+            </div>
+            <div class="col-1">
+                <span> Hướng dẫn</span>
+            </div>
+            <div class="col-1">
+                <span> Ưu đãi</span>
+            </div>
+            <div class="col-1">
+                <span> Liên hệ</span>
+            </div>
+            <div class="col-1">
+                <span> Blog</span>
+            </div>
+        </div>
+
+        <div class="header-menu display-tablet-only display-mobile-only" id="menu">
+            <div class="burger-wrapper">
+                <div class="col-1">
+                    <class class="burger-btn">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </class>
+                </div>
+                <div class="col-1">
+                    <span style="font-size: 18px;"> Trang chủ</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="boxes-container">
+        <div class="register-container">
+            <div class="box-name">Đăng ký</div>
+            <div>
+                <input placeholder="Nhập họ và tên">
+            </div>
+            <div>
+                <input placeholder="Nhập mật khẩu">
+            </div>
+            <div>
+                <input placeholder="Nhập lại mật khẩu">
+            </div>
+            <div class="box-note">
+                *Khi nhấn đăng ký hoặc tiếp tục với Google, bạn đã đồng ý với chính sách bảo mật của Công ty
+            </div>
+            <div>
+                <button class="submit-btn">Đăng ký</button>
+            </div>
+        </div>
+        <div class="login-container">
+            <div class="box-name">Đăng nhập</div>
+            <div>
+                <input placeholder="Nhập họ và tên">
+            </div>
+            <div>
+                <input placeholder="Nhập mật khẩu">
+            </div>
+            <div class="box-note" style="display: flex;justify-content: center;text-align:center">
+                Quên mật khẩu ?
+            </div>
+            <div>
+                <button class="submit-btn">Đăng nhập</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER PART (PART 8) -->
+
+    <footer>
+        <div class="footer-headline">
+            <img src="./images/app/insta.png" alt="Footer Logo">
+            <img src="./images/app/facebook.png" alt="Footer Logo">
+            <img src="./images/app/twiter.png" alt="Footer Logo">
+            <img src="./images/app/discord.png" alt="Footer Logo">
+
+        </div>
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <img src="./images/app/footer_Logo.png" alt="Footer Logo">
+                <div style="width: 50%">
+                    <b>ミアちゃん </b>chuyên cung cấp và nhận order dòng mô hình chính hãng trên thế giới. Nhận đặt hàng
+                    theo
+                    yêu cầu
+                </div>
+                <img style="height: 50px;width: auto" src="./images/app/Da_DANG_KY.png" alt="Footer Logo">
+            </div>
+
+            <div class="footer-links">
+                <div style="height: 80px;margin: 20px 10px"></div>
+                <ul style="width: 40%">
+                    <li style="display: flex;align-items: flex-start"><a href="#"><i
+                                class="fas fa-map-marker-alt"></i>Cô Vân Các, Lyue, lục địa Teyvat ( Vui lòng liên
+                            hệ
+                            trước khi đến )</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> +84123456789</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i>mia0101104@gmail.com</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <div style="height: 80px;margin: 20px 10px"></div>
+                <ul>
+                    <li style="font-size: 1rem;"><a href="#"><b>Hỗ trợ khách hàng</b></a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Chính sách mua hàng</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Figure Sale Shop. All rights reserved.</p>
+            <p>&copy; Order Search Terms</p>
+            <div class="page-points">
+                <div class="page-point"></div>
+                <div class="page-point"></div>
+                <div class="page-point"></div>
+                <div class="page-point"></div>
+            </div>
+        </div>
+
+        <div class="footer-headline footer-end display-tablet-only display-mobile-only"
+            style="display: flex !important;justify-content: space-around;align-items:center">
+            <img src="./images/app/home_icon.png" class="display-tablet-only" alt="Footer Logo">
+            <img src="./images/app/search_icon.png" class="display-tablet-only" alt="Footer Logo">
+            <img src="./images/app/user_icon.png" class="display-tablet-only display-mobile-only" alt="Footer Logo">
+            <img src="./images/app/cart_icon.png" class="display-tablet-only" alt="Footer Logo">
+            <img src="./images/app/heart_icon.png" class="display-tablet-only display-mobile-only" alt="Footer Logo">
+        </div>
+    </footer>
+
+    <!-- END FOOTER  -->
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="javascript/slider.js">
+</script>
+
+</html>
