@@ -233,12 +233,10 @@ input[type="number"] {
 }
 
 
-.fa-star {
-    color: rgb(209, 202, 202);
+.fa-star,.checked, .fa-star-half-alt {
+    color: orange;
 }
-.checked, .fa-star-half-alt {
-    color:orange;
-}
+
 
 .comment-list-cards {
     display: flex;
@@ -302,7 +300,7 @@ input[type="number"] {
 }
 
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1400px) {
     .figure-container{
         display: flex;
         flex-direction: column;
