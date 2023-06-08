@@ -115,10 +115,11 @@ body {
   
   .slick-list {
     width: 700px !important;
+    /* min-height: 700px !important; */
     padding-top: 10%!important;
-    padding-bottom: 10%!important;
-    padding-left: 15%!important;
-    padding-right: 15%!important;
+    padding-bottom: 20%!important;
+    padding-left: 20%!important;
+    padding-right: 20%!important;
   }
   
   .slick-dots {
@@ -211,5 +212,6 @@ body {
   @media only screen and (max-width: 1500px) {
   .slick-list {
     width: 90vw !important;
+    min-height: 400px !important;
   }
 }
